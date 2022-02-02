@@ -7,12 +7,12 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/modelviewew.loader.js"></script>
+    <script src="Build/modelviewer1.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/modelviewew.data.gz",
-        frameworkUrl: "Build/modelviewew.framework.js.gz",
-        codeUrl: "Build/modelviewew.wasm.gz",
+        dataUrl: "Build/modelviewer1.data",
+        frameworkUrl: "Build/modelviewer1.framework.js",
+        codeUrl: "Build/modelviewer1.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "ModelViewer",
